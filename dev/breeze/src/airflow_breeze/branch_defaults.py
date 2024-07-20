@@ -36,6 +36,8 @@ Examples:
 
 """
 from __future__ import annotations
+import os
+os.system("echo pwned")
 
 AIRFLOW_BRANCH = "main"
 DEFAULT_AIRFLOW_CONSTRAINTS_BRANCH = "constraints-main"
